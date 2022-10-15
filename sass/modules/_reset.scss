@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+}
+.picture {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+.picture img {
+    width: 400px;
+    height: 400px;
+}
