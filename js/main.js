@@ -34,6 +34,8 @@ import { getData } from "./modules/dataMiner.js";
             containers[0].querySelector('img').addEventListener('click', showArtist); 
 
             theArtists.appendChild(panel);
+
+            
 //lightbox, makes you click 3 times to close? 
             const lightbox = document.createElement('div')
             lightbox.id = 'lightbox'
@@ -58,6 +60,12 @@ import { getData } from "./modules/dataMiner.js";
 
         })
     }
+
+   
+ 
+
+
+    
     
 
     function showArtist() {
