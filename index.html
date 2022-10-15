@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/main.css">
+    
+    <title>My Favourite Things</title>
+</head>
+<body>
+    <h1 class="hidden">These are my favourite things!</h1>
+
+    <h2> I love music more than anything else, so here are my three favourite musicians</h2>
+
+    <section id="favourites"></section>
+
+
+    <!-- template tags should go at the bottom of the HTML markup -->
+    <!-- template tags don't get rendered, but their content does -->
+    <template id="bio-template">
+        <section class="bio_panel">
+            <div class="picture">
+                <!-- src gets added dynamically -->
+                <img src="images/laufey.jpg" alt="laufey">
+                <img src="images/beaches.jpg" alt="fav-picture">
+                <img src="images/rina.jpg" alt="fav-picture">
+            
+            </div>
+            <h2 class="p_name"></h2>
+        </section>
+    </template>
+
+    <!-- your JS always goes here -->
+    <!-- make the JS file wait to be parsed with the defer attribute (last thing the DOM engine reads)-->
+
+    <!-- the type attribute tells the JS engine that we're using modules (standalone JS files) -->
+    <!-- <script src="js/modules/data.js"></script> -->
+    <script src="js/main.js" type="module" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+    "Laufey": {
+        "Genre": "Jazz, Pop",
+        "Favourite Songs":"Hi, Just Like Chet",
+        "Why?":"I grew up with jazz music around the house, and it was a genre I always loved. Though more modern jazz never felt right to me until I discovered Laufey.",
+        "picture":"laufey.jpg"
+    },
+    "The Beaches": {
+        "Genre": "Rock",
+        "Favourite Songs":"Gold, Sweet Life",
+        "Why?":"Along with jazz, I also grew up with alot of rock music! I also love supporting local musicians and women fronted bands. So when I discovered The Beaches, an all women band from Toronto, I was immedietly a fan! ",
+        "picture":"beaches.jpg"
+    },
+    "Rina Sawayama": {
+        "Genre": "Pop, Rock",
+        "Favourite Song":"Frankenstein, Who's Gonna Save U Now?",
+        "Why?":"Rina Sawayama is an icon in genre mashing. Her music ranges from pop influnced by the early 2000's all the way to metal. I admire people who have range in an everyday life, and this includes music too!",
+        "picture":"rina.jpg"
+    }
+  }
+  
